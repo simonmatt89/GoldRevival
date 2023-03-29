@@ -79,7 +79,6 @@
   background: black;
   color: white;
   list-style: none;
-  padding: 3rem 0;
 }
 
 .material-icons {
@@ -87,8 +86,10 @@
 }
 
 .showMenu {
-  display: block;
-  width: 50%;
+  display: grid;
+  justify-items: center;
+  width: 100%;
+  right: 0px;
   /*transform: translateY(0);*/
 }
 
