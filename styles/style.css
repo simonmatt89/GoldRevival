@@ -221,6 +221,8 @@ ul {
   height: 100%;
 }
 
+/* Music content section */
+
 #element1 {
   display: none;
 }
@@ -419,6 +421,7 @@ input[type="submit"]:hover {
   .sets-container {
     display: flex;
     justify-content: space-around;
+    flex-direction: column;
   }
 
   .services-content {
