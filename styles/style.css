@@ -288,6 +288,11 @@ input[type="submit"]:hover {
   outline: 0;
 }
 
+.encore-badge {
+  display: grid;
+  justify-content: center;
+}
+
 @media only screen and (min-width: 425px) {
   /* For tablets: */
   .col-s-1 {
